@@ -1,16 +1,13 @@
-### Hi there 👋
+### Hi, I'm Darryl 👋
 
-<!--
-**darrylmorley/darrylmorley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a full-stack JavaScript developer based in the UK 🇬🇧.
 
-Here are some ideas to get you started:
+- 🔭 I’m currently creating Ecommerce solutions using Next.js.
+- 📚 Currently improving my Typescript and plan to learn C# soon.
+- 👯 I’m looking to help you with your Ecommerce site or API and other interesting Web Projects.
+- 😍 Outside of coding I enjoy motorbikes 🏍️, cycling 🚵 and getting out into the countryside 🥾.
+- 📫 Get in touch via [Gmail](mailto:darrylmorley.uk@gmail.com) or [Twitter](https://twitter.com/DarrylJMorley)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+⭐️ From [darrylmorley](https://github.com/darrylmorley)

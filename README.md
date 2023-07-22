@@ -1,9 +1,8 @@
 ### Hi, I'm Darryl 👋
 
-I'm a full-stack JavaScript developer based in the UK 🇬🇧.
+I'm a developer based in the UK 🇬🇧.
 
-- 🔭 I’m currently creating Ecommerce 🛒 solutions using Next.js.
-- 👯 I’m looking to help you with your Ecommerce site or API and other interesting Web Projects.
+- 🔭 I’m currently creating Ecommerce 🛒 solutions that integrate with the Lightspeed retail API & Barclays Epdq.
 - 📫 Get in touch via [Gmail](mailto:darrylmorley.uk@gmail.com)
 
 ---

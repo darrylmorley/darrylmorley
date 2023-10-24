@@ -2,7 +2,7 @@
 
 - I'm a developer based in the UK. I like Node.js, React and Biscuits.
 - Currently, I'm learning Go (Golang)!
-- Let's connect and collaborate! 🚀
+- I work with Lightspeed Retail and their API. Let's connect and collaborate! 🚀
 ---
 
 ### Projects

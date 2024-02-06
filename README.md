@@ -1,6 +1,6 @@
 ### Hi, I'm Darryl 👋
 
-- I'm a developer based in the UK. I use Node.js, GO, & React.
+- I'm a developer based in the UK. I use Node, Go, & React.
 ---
 
 ### Projects

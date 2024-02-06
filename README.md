@@ -1,8 +1,6 @@
 ### Hi, I'm Darryl 👋
 
-- I'm a developer based in the UK. I like Node.js, React and Biscuits.
-- Currently, I'm learning Go (Golang)!
-- I work with Lightspeed Retail and their API. Let's connect and collaborate! 🚀
+- I'm a developer based in the UK. I use Node.js, GO, & React.
 ---
 
 ### Projects

@@ -11,7 +11,7 @@
 - [Grand Power](https://www.grandpower.co.uk): A catalogue website built with Next.js, and Postgresql.
 
 - [go-lightspeed-retail](https://github.com/darrylmorley/go-lightspeed-retail): An SDK for the Lightspeed Retail API written in GO
-- [guntrader-api-syn](https://github.com/darrylmorley/guntrader-api-sync): A Bun.js application for syncing advert data from Guntrader API and managing images with S3 compatible storage.
+- [guntrader-api-sync](https://github.com/darrylmorley/guntrader-api-sync): A Bun.js application for syncing advert data from Guntrader API and managing images with S3 compatible storage.
 ---
 ### Contact
 

@@ -1,6 +1,6 @@
 ### Hi, I'm Darryl 👋
 
-- I'm a full-stack developer based in the UK, with a focus on Node.js, React & Next.js. I enjoy solving real-world problems through clean and efficient code. I'm also experimenting with Laravel and Go for backend development.
+- I'm a full-stack developer based in the UK, with a focus on Node.js, React & Next.js. I enjoy solving real-world problems through clean and efficient code.
 ---
 
 ### Projects

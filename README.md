@@ -17,4 +17,4 @@ Currently I help create and maintain eCommerce websites, including complex integ
 - Custom Rank Tracking Tool: Building a tool to track Google rankings using Next.js and Google Search Console for daily or weekly keyword tracking.
 - Ecommerce CMS: Experimenting with Payload CMS to build a tailored CMS for ecommerce platforms, including product variants and integrations with Lightspeed Retail.
 
-Feel free to explore my repositories or reach out if you're looking for someone to help build performant web applications or tackle complex eCommerce projects.
+Feel free to explore my repositories or reach out if you're looking for someone to help build performant web applications or tackle eCommerce projects.

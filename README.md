@@ -1,20 +1,31 @@
-# Hi there, I'm Darryl 👋
+# Hi, I'm Darryl 👋  
+**Full Stack Developer • eCommerce Specialist • API Integrator**
 
-I'm a full stack developer based in the Cotswolds, UK, with a passion for building scalable, high-performance eCommerce solutions. My expertise lies in JavaScript, TypeScript, Node.js, and React, and I'm proficient in API integrations, SEO, and optimizing websites for better user experience and conversion.
+Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. My focus is on real-world performance, clean architecture, and seamless integrations — particularly with **Lightspeed Retail**, **Guntrader**, and payment systems like **Worldpay**, **Barclays EPDQ**, and **Stripe**.
 
-Currently I help create and maintain eCommerce websites, including complex integrations with APIs such as Guntrader, Lightspeed Retail, and Google Merchant Center. My approach focuses on clean, efficient code and delivering a seamless user experience.
+---
 
-## A few highlights:
+## 🔧 Tech & Tools
 
-- 🛠️ Specializing in backend and frontend development with tools like Node.js, React, and Next.js.
-- 🚀 Experienced in optimizing SEO performance and improving web traffic for eCommerce sites.
-- 🎯 Building custom SEO tools, integrating APIs, and managing DigitalOcean and AWS S3 storage solutions.
-- 🔧 I enjoy crafting Bun/Hono apps, leveraging my love for minimalist, fast, and lightweight code.
+- **eCommerce**: Lightspeed Retail API, Guntrader, Google Merchant Center  
+- **Payments**: Apple Pay, Worldpay, Barclays EPDQ, Stripe  
+- **Stack**: Next.js, React, Node.js, TypeScript, Bun, Hono  
+- **Infra**: PostgreSQL, SQLite, DigitalOcean, AWS S3, systemd  
+- **SEO**: Core Web Vitals, structured data, rank tracking
 
-## Recent Projects:
+---
 
-- Gun Trader API Sync: Syncing product data and images from an external API to our internal database, ensuring efficient storage and retrieval of media with DigitalOcean Spaces.
-- Custom Rank Tracking Tool: Building a tool to track Google rankings using Next.js and Google Search Console for daily or weekly keyword tracking.
-- Ecommerce CMS: Experimenting with Payload CMS to build a tailored CMS for ecommerce platforms, including product variants and integrations with Lightspeed Retail.
+## 🚀 Notable Work
 
-Feel free to explore my repositories or reach out if you're looking for someone to help build performant web applications or tackle eCommerce projects.
+- **Lightspeed Sync**: Multi-store sync engine for stock, categories, and brands  
+- **Apple Pay Checkout**: Migrated to Worldpay for Apple Pay support and conversion gains  
+- **Guntrader Importer**: Synced listings and images to internal DB + S3-compatible storage  
+- **Rank Tracker**: Search Console + Next.js app for keyword monitoring  
+- **Headless CMS**: Payload CMS prototype with Lightspeed product sync
+
+---
+
+## 🤝 Get in Touch
+
+Need help with **eCommerce, APIs, or performance**?  
+[📧 darrylmorley.uk@gmail.com](mailto:darrylmorley.uk@gmail.com)

@@ -7,13 +7,13 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
 
 ## 🔧 Tech & Tools
 
-- **eCommerce**: Lightspeed Retail API, Guntrader, Google Merchant Center  
-- **Payments**: Apple Pay, Worldpay, Barclays EPDQ, Stripe  
-- **Stack**: Next.js, React, Node.js, TypeScript, Bun, Hono  
-- **Infra**: PostgreSQL, SQLite, DigitalOcean, AWS S3, systemd  
-- **SEO**: Core Web Vitals, structured data, rank tracking
-
----
+- **Languages & Frameworks**: TypeScript, JavaScript, Node.js, React, Next.js, Express, Bun, Hono, Laravel (basic), Go (learning)
+- **Styling & UI**: Tailwind CSS, Headless UI
+- **Infra & DevOps**: Docker, systemd, PM2, Redis, PostgreSQL, SQLite, Nginx, Caddy, Vercel, DigitalOcean, AWS S3
+- **Auth & APIs**: OAuth2, JWT, REST, GraphQL, Webhooks
+- **Payments & eCommerce**: Lightspeed Retail API, Guntrader, Google Merchant Center, Worldpay, Stripe, Barclays EPDQ
+- **Email & Comms**: Mailgun, Sendinblue, transactional email systems
+- **SEO & Analytics**: Core Web Vitals, schema.org, Google Search Console, Open Graph/Twitter Cards
 
 ## 🚀 Notable Work
 

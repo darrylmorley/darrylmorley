@@ -1,7 +1,7 @@
 # Hi, I'm Darryl 👋  
 **Full Stack Developer • eCommerce Specialist • API Integrator**
 
-Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. My focus is on real-world performance, clean architecture, and seamless integrations.
+Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. I focus on performance, maintainable architecture, and seamless integrations — across both code and infrastructure.
 
 ---
 
@@ -16,19 +16,27 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
 
 ## 🚀 Notable Work
 
-- **eCommerce Builds**  
-  Developed and maintain live storefronts for [Shooting Supplies](https://www.shootingsuppliesltd.co.uk), [FAB Defense UK](https://www.fabdefense.co.uk), and [Holosun Optics UK](https://www.holosun-optics.co.uk), with deep integration into Lightspeed Retail and SEO-focused architecture.
-- **Lightspeed Retail SDK**  
-  Published [`lightspeed-retail-sdk`](https://www.npmjs.com/package/lightspeed-retail-sdk), a Node.js package for interacting with the Lightspeed Retail API. Handles throttling, pagination, and token management — used across multiple live eCommerce sites.
-- **Lightspeed Sync**  
-  Multi-store sync engine to import and normalize inventory, categories, and brands from Lightspeed into a centralized product database.
-- **Checkout**  
-  Migrated checkout from Barclays EPDQ to Worldpay with full Apple Pay support, resolving prior issues and improving conversion rates.
-- **Guntrader Importer**  
-  Synced firearm listings and images from Guntrader into internal systems using PostgreSQL and S3-compatible storage.
-- **Headless CMS**  
-  Prototyped a Payload CMS instance with Lightspeed Retail integration, enabling custom product variant management.
+- **Live eCommerce Builds**  
+  Developed and maintain production storefronts for:  
+  - [Shooting Supplies](https://www.shootingsuppliesltd.co.uk) – Full Lightspeed Retail integration, secure checkout, and SEO-optimized architecture  
+  - [FAB Defense UK](https://www.fabdefense.co.uk) – Branded accessories store with product import and CMS flexibility  
+  - [Holosun Optics UK](https://www.holosun-optics.co.uk) – SEO-focused optics storefront with lean, fast architecture
 
+- **Platform Integrations & Data Sync**  
+  Built and managed robust API integrations and sync engines, including:  
+  - **Lightspeed Retail** – Full product, inventory, and category syncing across multiple storefronts  
+  - **Guntrader** – Firearm listing importer with image handling, stored in PostgreSQL + S3-compatible storage  
+  - **Google Merchant Center** – Automated product feed generation and validation for Google Shopping  
+  - **Sendinblue / Mailgun** – Transactional and marketing email integrations for order flows and reminders  
+  - **Stripe / Worldpay / Barclays EPDQ** – Secure token-based checkout systems with Apple Pay support  
+  - **Webhook Processing** – Handling inbound product/order updates, including retry logic and Redis-based state tracking
+
+- **Lightspeed Retail SDK**  
+  Published [`lightspeed-retail-sdk`](https://www.npmjs.com/package/lightspeed-retail-sdk), a Node.js client for the Lightspeed Retail API. Handles OAuth2, rate limits, pagination, and token management. Actively used across multiple production sites.
+
+- **Checkout Systems**  
+  Migrated and secured checkout flows using **Stripe**, **Worldpay**, and **EPDQ**, implementing Apple Pay support, tokenized payments, and improved conversion performance.
+  
 ---
 
 ## 🤝 Get in Touch

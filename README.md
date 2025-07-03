@@ -8,7 +8,6 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
 ## 🔧 Tech & Tools
 
 - **Languages & Frameworks**: TypeScript, JavaScript, Node.js, React, Next.js, Express, Bun, Hono, Laravel (basic), Go (learning)
-- **Styling & UI**: Tailwind CSS, Headless UI
 - **Infra & DevOps**: Docker, systemd, PM2, Redis, PostgreSQL, SQLite, Nginx, Caddy, Vercel, DigitalOcean, AWS S3
 - **Auth & APIs**: OAuth2, JWT, REST, GraphQL, SOAP, Webhooks
 - **Payments & eCommerce**: Lightspeed Retail API, Guntrader, Google Merchant Center, Worldpay, Stripe, Barclays EPDQ

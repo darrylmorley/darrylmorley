@@ -23,12 +23,10 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
   Published [`lightspeed-retail-sdk`](https://www.npmjs.com/package/lightspeed-retail-sdk), a Node.js package for interacting with the Lightspeed Retail API. Handles throttling, pagination, and token management — used across multiple live eCommerce sites.
 - **Lightspeed Sync**  
   Multi-store sync engine to import and normalize inventory, categories, and brands from Lightspeed into a centralized product database.
-- **Apple Pay Checkout**  
+- **Checkout**  
   Migrated checkout from Barclays EPDQ to Worldpay with full Apple Pay support, resolving prior issues and improving conversion rates.
 - **Guntrader Importer**  
   Synced firearm listings and images from Guntrader into internal systems using PostgreSQL and S3-compatible storage.
-- **Rank Tracker**  
-  Built a lightweight Google Search Console integration using Next.js to monitor keyword performance daily and weekly.
 - **Headless CMS**  
   Prototyped a Payload CMS instance with Lightspeed Retail integration, enabling custom product variant management.
 

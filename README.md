@@ -17,6 +17,8 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
 
 ## 🚀 Notable Work
 
+- **eCommerce Builds**  
+  Developed and maintain live storefronts for [Shooting Supplies](https://www.shootingsuppliesltd.co.uk), [FAB Defense UK](https://www.fabdefense.co.uk), and [Holosun Optics UK](https://www.holosun-optics.co.uk), with deep integration into Lightspeed Retail and SEO-focused architecture.
 - **Lightspeed Retail SDK**  
   Published [`lightspeed-retail-sdk`](https://www.npmjs.com/package/lightspeed-retail-sdk), a Node.js package for interacting with the Lightspeed Retail API. Handles throttling, pagination, and token management — used across multiple live eCommerce sites.
 - **Lightspeed Sync**  

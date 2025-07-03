@@ -1,5 +1,5 @@
-# Hi, I'm Darryl 👋  
-**Full Stack Developer • eCommerce Specialist • API Integrator**
+# Darryl Morley
+**Full Stack Developer • API Integrator • eCommerce Specialist**
 
 Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. I focus on performance, maintainable architecture, and seamless integrations — across both code and infrastructure.
 

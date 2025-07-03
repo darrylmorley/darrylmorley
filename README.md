@@ -1,7 +1,7 @@
 # Hi, I'm Darryl 👋  
 **Full Stack Developer • eCommerce Specialist • API Integrator**
 
-Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. My focus is on real-world performance, clean architecture, and seamless integrations — particularly with **Lightspeed Retail**, **Guntrader**, and payment systems like **Worldpay**, **Barclays EPDQ**, and **Stripe**.
+Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. My focus is on real-world performance, clean architecture, and seamless integrations.
 
 ---
 

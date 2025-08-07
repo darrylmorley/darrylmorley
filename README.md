@@ -42,4 +42,4 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
 ## 🤝 Get in Touch
 
 Need help with **eCommerce, APIs, or performance**?  
-[📧 darrylmorley.uk@gmail.com](mailto:darrylmorley.uk@gmail.com)
+[📧 hello@darrylmorley.co.uk](mailto:hello@darrylmorley.co.uk)

@@ -1,18 +1,17 @@
 # Darryl Morley
 **Full Stack Developer • API Integrator • eCommerce Specialist**
 
-Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. I focus on performance, maintainable architecture, and seamless integrations — across both code and infrastructure.
+Based in Warwickshire, UK, I’ve spent the past 5+ years building and scaling eCommerce platforms. I focus on performant, maintainable architecture, and seamless integrations — across both code and infrastructure.
 
 ---
 
 ## 🔧 Tech & Tools
 
-- **Languages & Frameworks**: TypeScript, JavaScript, Node.js, React, Next.js, Express, Bun, Hono, Laravel (basic), Go (learning)
-- **Infra & DevOps**: Docker, systemd, PM2, Redis, PostgreSQL, SQLite, Nginx, Caddy, Vercel, DigitalOcean, AWS S3
-- **Auth & APIs**: OAuth2, JWT, REST, GraphQL, SOAP, Webhooks
-- **Payments & eCommerce**: Lightspeed Retail API, Guntrader, Google Merchant Center, Worldpay, Stripe, Barclays EPDQ
-- **Email & Comms**: Mailgun, Sendinblue, transactional email systems
-- **SEO & Analytics**: Core Web Vitals, schema.org, Google Search Console, Open Graph/Twitter Cards
+**Languages & Frameworks**: TypeScript, Node.js, React, Next.js, Go (learning), etc.  
+**Infra**: Docker, Redis, PostgreSQL, Vercel, DigitalOcean, etc.  
+**APIs & Auth**: OAuth2, REST, GraphQL, Webhooks.  
+**eCommerce & Payments**: Lightspeed Retail API, Shopify, WooCommerce, Worldpay, Stripe, Barclays EPDQ.  
+**SEO & Analytics**: Technical SEO, On-page SEO & Metadata, Analytics & Monitoring.
 
 ## 🚀 Notable Work
 
@@ -35,8 +34,8 @@ Based in the Cotswolds, UK, I’ve spent the past 5+ years building and scaling 
   Published [`lightspeed-retail-sdk`](https://www.npmjs.com/package/lightspeed-retail-sdk), a Node.js client for the Lightspeed Retail API. Handles OAuth2, rate limits, pagination, and token management. Actively used across multiple production sites.
 
 - **Checkout Systems**  
-  Migrated and secured checkout flows using **Stripe**, **Worldpay**, and **EPDQ**, implementing Apple Pay support, tokenized payments, and improved conversion performance.
-  
+  Migrate and secure checkout flows using **Stripe**, **Worldpay**, and **Barclays EPDQ**, implementing Apple Pay support, tokenized payments, and improved conversion performance.
+
 ---
 
 ## 🤝 Get in Touch

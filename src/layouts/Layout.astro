@@ -15,10 +15,15 @@ const ogDescription =
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": `${site.domain}/#business`,
   name: site.name,
   url: site.domain,
   email: site.email,
-  ...(site.phone ? { telephone: site.phone } : {}),
+  // International format for structured data; the human-readable local
+  // format stays on the page itself.
+  ...(site.phoneHref ? { telephone: site.phoneHref.replace("tel:", "") } : {}),
+  image: `${site.domain}/og.png`,
+  logo: `${site.domain}/apple-touch-icon.png`,
   description:
     "Freelance web developer building websites, online shops, system integrations and technical SEO for businesses in the North Cotswolds.",
   areaServed: [...site.towns, "North Cotswolds"].map((name) => ({
@@ -37,6 +42,7 @@ const jsonLd = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2c4030" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={`${site.domain}/`} />
@@ -45,7 +51,7 @@ const jsonLd = {
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={ogDescription} />
-    <meta property="og:url" content={site.domain} />
+    <meta property="og:url" content={`${site.domain}/`} />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />

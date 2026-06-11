@@ -1,7 +1,7 @@
 const proofItems = [
   {
     title: "Payment integrations",
-    body: "Barclays and Stripe, taking real money every day.",
+    body: "Barclays, Worldpay and Stripe, taking real money every day.",
   },
   {
     title: "Retail EPOS & stock systems",

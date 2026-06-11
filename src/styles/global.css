@@ -11,9 +11,9 @@
   --color-moss: #3d5640;
   --color-moss-deep: #2c4030;
 
-  --font-display: var(--font-fraunces);
-  --font-body: var(--font-karla);
-  --font-mono: var(--font-jetbrains);
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-body: "Karla Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
 }
 
 html {

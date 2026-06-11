@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darrylmorley.co.uk/sitemap.xml

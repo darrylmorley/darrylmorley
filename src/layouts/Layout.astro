@@ -1,0 +1,59 @@
+---
+import "@fontsource-variable/fraunces/full.css";
+import "@fontsource-variable/fraunces/full-italic.css";
+import "@fontsource-variable/karla";
+import "@fontsource-variable/jetbrains-mono";
+import "@/styles/global.css";
+import { site } from "@/lib/site";
+
+const title = `${site.name} | Web developer in the North Cotswolds`;
+const description =
+  "Websites, online shops and the systems behind them. A freelance web developer working with businesses in Moreton-in-Marsh, Shipston-on-Stour, Chipping Campden, Stratford-upon-Avon and the surrounding villages.";
+const ogDescription =
+  "Websites, online shops and the systems behind them, built by a local developer who sticks around after launch.";
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  name: site.name,
+  url: site.domain,
+  email: site.email,
+  ...(site.phone ? { telephone: site.phone } : {}),
+  description:
+    "Freelance web developer building websites, online shops, system integrations and technical SEO for businesses in the North Cotswolds.",
+  areaServed: [...site.towns, "North Cotswolds"].map((name) => ({
+    "@type": "Place",
+    name,
+  })),
+  parentOrganization: {
+    "@type": "Organization",
+    name: site.company,
+  },
+};
+---
+
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={`${site.domain}/`} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={site.domain} />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content={`${site.domain}/og.png`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body class="grain">
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,56 @@
+---
+const proofItems = [
+  {
+    title: "Payment integrations",
+    body: "Barclays, Worldpay and Stripe, taking real money every day.",
+  },
+  {
+    title: "Retail EPOS & stock systems",
+    body: "Tills, stock feeds and product data, kept in sync so the shelf and the website agree.",
+  },
+  {
+    title: "Multi-storefront e-commerce",
+    body: "Five storefronts run from one stack: online shops, CMS builds, product data and the SEO in front of it.",
+  },
+];
+---
+
+<section class="bg-paper-deep">
+  <div class="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+    <h2 class="reveal font-mono text-xs tracking-[0.2em] text-moss uppercase">
+      Track record
+    </h2>
+    <p class="reveal mt-6 max-w-2xl font-display text-3xl font-medium tracking-tight sm:text-4xl">
+      Built, and <em class="text-moss">running today</em>.
+    </p>
+    <dl class="mt-12 border-t border-ink/15">
+      {
+        proofItems.map((item) => (
+          <div class="reveal grid gap-2 border-b border-ink/15 py-7 sm:grid-cols-[1fr_1.6fr] sm:gap-10">
+            <dt class="font-display text-xl font-medium tracking-tight">
+              {item.title}
+            </dt>
+            <dd class="leading-relaxed text-ink-soft">{item.body}</dd>
+          </div>
+        ))
+      }
+      <div class="reveal grid gap-2 border-b border-ink/15 py-7 sm:grid-cols-[1fr_1.6fr] sm:gap-10">
+        <dt class="font-display text-xl font-medium tracking-tight">
+          Software of my own
+        </dt>
+        <dd class="leading-relaxed text-ink-soft">
+          <a
+            href="https://www.whatcable.uk"
+            target="_blank"
+            rel="noopener"
+            class="text-moss underline decoration-stone underline-offset-4 transition-colors hover:text-moss-deep"
+          >
+            WhatCable
+          </a>, a Mac app with paying customers worldwide. Designed, built,
+          sold and supported by one person. When I say I stick around after
+          launch, this is what that looks like.
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>

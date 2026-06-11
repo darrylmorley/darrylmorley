@@ -20,14 +20,14 @@ const proofItems = [
     <h2 class="reveal font-mono text-xs tracking-[0.2em] text-moss uppercase">
       Track record
     </h2>
-    <p class="reveal mt-6 max-w-2xl font-display text-3xl font-medium tracking-tight sm:text-4xl">
+    <p class="reveal mt-6 max-w-2xl font-display text-3xl tracking-tight sm:text-4xl">
       Built, and <em class="text-moss">running today</em>.
     </p>
     <dl class="mt-12 border-t border-ink/15">
       {
         proofItems.map((item) => (
           <div class="reveal grid gap-2 border-b border-ink/15 py-7 sm:grid-cols-[1fr_1.6fr] sm:gap-10">
-            <dt class="font-display text-xl font-medium tracking-tight">
+            <dt class="font-display text-xl tracking-tight">
               {item.title}
             </dt>
             <dd class="leading-relaxed text-ink-soft">{item.body}</dd>
@@ -35,7 +35,7 @@ const proofItems = [
         ))
       }
       <div class="reveal grid gap-2 border-b border-ink/15 py-7 sm:grid-cols-[1fr_1.6fr] sm:gap-10">
-        <dt class="font-display text-xl font-medium tracking-tight">
+        <dt class="font-display text-xl tracking-tight">
           Software of my own
         </dt>
         <dd class="leading-relaxed text-ink-soft">

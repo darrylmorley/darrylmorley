@@ -25,7 +25,7 @@ export function Hero() {
           {site.phone && site.phoneHref ? (
             <a
               href={site.phoneHref}
-              className="rounded-full border border-ink/25 bg-paper/60 px-7 py-3.5 font-mono text-sm transition-all hover:-translate-y-0.5 hover:border-moss hover:text-moss"
+              className="rounded-full border border-ink/25 bg-paper/60 px-7 py-3.5 text-sm font-bold transition-all hover:-translate-y-0.5 hover:border-moss hover:text-moss"
             >
               {site.phone}
             </a>

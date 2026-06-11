@@ -21,7 +21,7 @@ export function Contact() {
           Or call{" "}
           <a
             href={site.phoneHref}
-            className="font-mono text-moss transition-colors hover:text-moss-deep"
+            className="font-semibold text-moss transition-colors hover:text-moss-deep"
           >
             {site.phone}
           </a>

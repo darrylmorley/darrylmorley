@@ -9,20 +9,21 @@ export function About() {
         </h2>
         <div className="reveal space-y-6 text-lg leading-relaxed text-ink-soft">
           <p>
-            By day I run the online side of a busy UK retailer: the shop
-            itself, the stock systems behind it and the search rankings in
-            front of it. So anything I build for you is shaped by actually
-            running this stuff day to day, not handing it over and moving on.
+            I run the online side of a busy UK retailer: the shop, the stock
+            systems behind it, and the search rankings in front of it.
+            That&rsquo;s not a side project: it&rsquo;s the reason anything I
+            build for you is shaped by actually running this stuff, not
+            handing it over and moving on.
           </p>
           <p>
-            That means when you ask &ldquo;can the website talk to the
-            till?&rdquo; or &ldquo;why doesn&rsquo;t Google show us?&rdquo;,
-            you get a straight answer from the person who&rsquo;ll do the
-            work. No account managers, no ticket queue.
+            So when you ask &ldquo;can the website talk to the till?&rdquo;
+            or &ldquo;why doesn&rsquo;t Google show us?&rdquo;, you get a
+            straight answer from the person who&rsquo;ll do the work. No
+            account managers, no ticket queue.
           </p>
           <p>
-            I live up here in the North Cotswolds. If you&rsquo;re nearby, we
-            can sort most things out over a coffee.
+            I&rsquo;m based in the North Cotswolds. If you&rsquo;re nearby,
+            most things can be sorted over a coffee.
           </p>
         </div>
       </div>

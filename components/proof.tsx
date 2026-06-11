@@ -17,6 +17,8 @@ const proofItems: { title: string; body: React.ReactNode }[] = [
       <>
         <a
           href="https://www.whatcable.uk"
+          target="_blank"
+          rel="noopener"
           className="text-moss underline decoration-stone underline-offset-4 transition-colors hover:text-moss-deep"
         >
           WhatCable

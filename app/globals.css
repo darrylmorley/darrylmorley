@@ -63,8 +63,26 @@ body {
 .rise-3 { animation-delay: 0.25s; }
 .rise-4 { animation-delay: 0.35s; }
 
+/* Fraunces wonk + soft axes give the italics a hand-set feel */
+em,
+.wonk {
+  font-variation-settings:
+    "WONK" 1,
+    "SOFT" 40;
+}
+
+/* Scroll-driven reveals where supported, static content everywhere else */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: rise both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 45%;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .rise {
+  .rise,
+  .reveal {
     animation: none;
   }
   html {

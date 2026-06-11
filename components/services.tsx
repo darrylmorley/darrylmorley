@@ -23,17 +23,17 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="mx-auto max-w-6xl scroll-mt-12 px-6 py-20 sm:py-28">
-      <h2 className="font-mono text-xs tracking-[0.2em] text-moss uppercase">
+    <section id="services" className="mx-auto max-w-6xl scroll-mt-24 px-6 py-20 sm:py-28">
+      <h2 className="reveal font-mono text-xs tracking-[0.2em] text-moss uppercase">
         What I do
       </h2>
       <div className="mt-10 grid border-t border-ink/15 sm:grid-cols-2">
         {services.map((service) => (
           <article
             key={service.number}
-            className="border-b border-ink/15 py-10 sm:px-8 sm:first:pl-0 sm:nth-[2n]:border-l sm:nth-[2n+1]:pl-0 sm:last:pr-0"
+            className="reveal group border-b border-ink/15 py-10 transition-colors hover:bg-paper-deep/50 sm:px-8 sm:first:pl-0 sm:nth-[2n]:border-l sm:nth-[2n+1]:pl-0 sm:last:pr-0"
           >
-            <span className="font-mono text-sm text-stone">
+            <span className="font-mono text-sm text-stone transition-colors group-hover:text-moss">
               {service.number}
             </span>
             <h3 className="mt-3 font-display text-2xl font-medium tracking-tight sm:text-3xl">

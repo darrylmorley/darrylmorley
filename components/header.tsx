@@ -9,7 +9,8 @@ const navLinks = [
 
 export function Header() {
   return (
-    <header className="rise rise-1 mx-auto flex max-w-6xl items-baseline justify-between gap-6 px-6 pt-8 pb-4">
+    <header className="rise rise-1 sticky top-0 z-40 border-b border-ink/10 bg-paper/85 backdrop-blur-sm">
+      <div className="mx-auto flex max-w-6xl items-baseline justify-between gap-6 px-6 py-5">
       <a
         href="#top"
         className="font-display text-xl font-semibold tracking-tight"
@@ -33,6 +34,7 @@ export function Header() {
       >
         {site.phone}
       </a>
+      </div>
     </header>
   );
 }

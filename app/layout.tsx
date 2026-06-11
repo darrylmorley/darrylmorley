@@ -7,7 +7,7 @@ const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-fraunces",
   style: ["normal", "italic"],
-  axes: ["opsz"],
+  axes: ["opsz", "SOFT", "WONK"],
 });
 
 const karla = Karla({
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: `${site.name} | Web developer in the North Cotswolds`,
   description:
-    "Websites, online shops and the systems behind them. A freelance web developer working with businesses in Moreton-in-Marsh, Shipston-on-Stour, Chipping Campden and the surrounding villages.",
+    "Websites, online shops and the systems behind them. A freelance web developer working with businesses in Moreton-in-Marsh, Shipston-on-Stour, Chipping Campden, Stratford-upon-Avon and the surrounding villages.",
   alternates: { canonical: "/" },
   openGraph: {
     title: `${site.name} | Web developer in the North Cotswolds`,
@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: "en_GB",
     type: "website",
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 

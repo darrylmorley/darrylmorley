@@ -7,9 +7,9 @@ export function Hero() {
         <p className="rise rise-1 font-mono text-xs tracking-[0.2em] text-moss uppercase">
           {site.towns.join("  ·  ")}
         </p>
-        <h1 className="rise rise-2 mt-6 max-w-3xl font-display text-5xl leading-[1.02] font-medium tracking-tight sm:text-7xl lg:text-8xl">
-          Websites that <em className="text-moss">work</em>, built just down
-          the road.
+        <h1 className="rise rise-2 mt-6 max-w-4xl font-display text-5xl leading-[1.05] font-medium tracking-tight sm:text-7xl">
+          Built just down the road, for the businesses that make this place{" "}
+          <em className="text-moss">work</em>.
         </h1>
         <p className="rise rise-3 mt-7 max-w-xl text-lg leading-relaxed text-ink-soft">
           I&rsquo;m Darryl, a web developer in the {site.region}. I build fast

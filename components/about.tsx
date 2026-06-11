@@ -22,6 +22,18 @@ export function About() {
             account managers, no ticket queue.
           </p>
           <p>
+            If you want something to poke at: I also build and ship my own
+            software, like{" "}
+            <a
+              href="https://www.whatcable.uk"
+              className="text-moss underline decoration-stone underline-offset-4 transition-colors hover:text-moss-deep"
+            >
+              WhatCable
+            </a>
+            , a Mac app that tells you what your USB-C cables can actually
+            do. Designed, built and supported by one person, start to finish.
+          </p>
+          <p>
             I&rsquo;m based in the North Cotswolds. If you&rsquo;re nearby,
             most things can be sorted over a coffee.
           </p>

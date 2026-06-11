@@ -30,9 +30,15 @@ export function Header() {
       </nav>
       <a
         href={site.phoneHref}
-        className="font-mono text-sm text-moss transition-colors hover:text-moss-deep"
+        className="hidden font-mono text-sm text-moss transition-colors hover:text-moss-deep sm:inline"
       >
         {site.phone}
+      </a>
+      <a
+        href="#contact"
+        className="text-sm font-bold text-moss transition-colors hover:text-moss-deep sm:hidden"
+      >
+        Get in touch
       </a>
       </div>
     </header>

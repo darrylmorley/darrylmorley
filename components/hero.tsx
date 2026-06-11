@@ -30,7 +30,7 @@ export function Hero() {
           </a>
         </div>
         <p className="rise rise-4 mt-8 font-mono text-xs tracking-wide text-ink-soft/80">
-          Fixed quotes · One developer, not an agency · Plain English
+          Fixed quotes · You deal with me · Plain English
         </p>
       </div>
 

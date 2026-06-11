@@ -13,7 +13,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.2.5",
     "@fontsource-variable/karla": "^5.2.5",
     "@tailwindcss/vite": "^4.1.8",
-    "astro": "^5.18.2",
+    "astro": "^6.4.6",
     "tailwindcss": "^4.1.8"
   }
 }

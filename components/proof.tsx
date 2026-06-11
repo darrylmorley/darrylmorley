@@ -1,4 +1,4 @@
-const proofItems = [
+const proofItems: { title: string; body: React.ReactNode }[] = [
   {
     title: "Payment integrations",
     body: "Barclays, Worldpay and Stripe, taking real money every day.",
@@ -12,9 +12,20 @@ const proofItems = [
     body: "Five storefronts run from one stack: online shops, CMS builds, product data and the SEO in front of it.",
   },
   {
-    title: "WhatCable, a shipped Mac app",
-    body: "My own product, with paying customers. Designed, built and supported by one person, start to finish.",
-    href: "https://www.whatcable.uk",
+    title: "Software of my own",
+    body: (
+      <>
+        <a
+          href="https://www.whatcable.uk"
+          className="text-moss underline decoration-stone underline-offset-4 transition-colors hover:text-moss-deep"
+        >
+          WhatCable
+        </a>
+        , a Mac app with paying customers worldwide. Designed, built, sold
+        and supported by one person. When I say I stick around after launch,
+        this is what that looks like.
+      </>
+    ),
   },
 ];
 
@@ -35,16 +46,7 @@ export function Proof() {
               className="reveal grid gap-2 border-b border-ink/15 py-7 sm:grid-cols-[1fr_1.6fr] sm:gap-10"
             >
               <dt className="font-display text-xl font-medium tracking-tight">
-                {item.href ? (
-                  <a
-                    href={item.href}
-                    className="text-moss underline decoration-stone underline-offset-4 transition-colors hover:text-moss-deep"
-                  >
-                    {item.title}
-                  </a>
-                ) : (
-                  item.title
-                )}
+                {item.title}
               </dt>
               <dd className="leading-relaxed text-ink-soft">{item.body}</dd>
             </div>

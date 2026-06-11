@@ -12,9 +12,8 @@ export function Hero() {
           <em className="text-moss">work</em>.
         </h1>
         <p className="rise rise-3 mt-7 max-w-xl text-lg leading-relaxed text-ink-soft">
-          I&rsquo;m Darryl, a web developer in the {site.region}. I build fast
-          websites and online shops, connect the systems behind them, and
-          stick around after launch.
+          I build websites and online shops, get them found on Google, wire
+          up the systems behind them, and stick around after launch.
         </p>
         <div className="rise rise-4 mt-10 flex flex-wrap items-center gap-4">
           <a

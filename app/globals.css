@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm limestone palette: cream paper, warm ink, honey stone, deep moss */
+  --color-paper: #f7f2e9;
+  --color-paper-deep: #efe7d8;
+  --color-ink: #221c14;
+  --color-ink-soft: #574c3c;
+  --color-stone: #c29a5e;
+  --color-stone-soft: #e3d3b4;
+  --color-moss: #3d5640;
+  --color-moss-deep: #2c4030;
+
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-karla);
+  --font-mono: var(--font-jetbrains);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-stone);
+  color: var(--color-ink);
+}
+
+/* Faint paper grain over the whole page */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Staggered fade-up on page load */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.rise-1 { animation-delay: 0.05s; }
+.rise-2 { animation-delay: 0.15s; }
+.rise-3 { animation-delay: 0.25s; }
+.rise-4 { animation-delay: 0.35s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -15,7 +15,7 @@ type SiteConfig = {
 export const site: SiteConfig = {
   name: "Darryl Morley",
   company: "Bitmoor Ltd",
-  domain: "https://darrylmorley.co.uk",
+  domain: "https://www.darrylmorley.co.uk",
   email: "hello@darrylmorley.co.uk",
   phone: "01608 610250",
   phoneHref: "tel:+441608610250",

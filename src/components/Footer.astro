@@ -8,7 +8,11 @@ const year = new Date().getFullYear();
 <footer class="border-t border-ink/15">
   <div class="mx-auto flex max-w-6xl flex-wrap items-baseline justify-between gap-4 px-6 py-8 text-sm text-ink-soft">
     <p>
-      {site.name} is a trading name of {site.company} · © {year}
+      {site.name} is a trading name of <a
+        href={site.companyUrl}
+        class="underline decoration-ink/30 underline-offset-2 transition-colors hover:decoration-ink"
+        >{site.company}</a
+      > · © {year}
     </p>
     <p class="font-mono text-xs">
       {site.name} · web design & SEO · {site.region}

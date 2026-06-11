@@ -2,6 +2,7 @@
 type SiteConfig = {
   name: string;
   company: string;
+  companyUrl: string;
   domain: string;
   email: string;
   // No phone on the site until a local VoIP number exists. When it does,
@@ -15,6 +16,7 @@ type SiteConfig = {
 export const site: SiteConfig = {
   name: "Darryl Morley",
   company: "Bitmoor Ltd",
+  companyUrl: "https://www.bitmoor.co.uk",
   domain: "https://www.darrylmorley.co.uk",
   email: "hello@darrylmorley.co.uk",
   phone: "01608 610250",

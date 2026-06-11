@@ -1,11 +1,24 @@
 // Central place for contact details and site facts.
-export const site = {
+type SiteConfig = {
+  name: string;
+  company: string;
+  domain: string;
+  email: string;
+  // No phone on the site until a local VoIP number exists. When it does,
+  // set both fields and every phone link reappears automatically.
+  phone: string | null;
+  phoneHref: string | null;
+  towns: readonly string[];
+  region: string;
+};
+
+export const site: SiteConfig = {
   name: "Darryl Morley",
   company: "Bitmoor Ltd",
   domain: "https://darrylmorley.co.uk",
   email: "hello@darrylmorley.co.uk",
-  phone: "07414 549811",
-  phoneHref: "tel:+447414549811",
+  phone: "01608 610250",
+  phoneHref: "tel:+441608610250",
   towns: [
     "Moreton-in-Marsh",
     "Shipston-on-Stour",
@@ -13,4 +26,4 @@ export const site = {
     "Stratford-upon-Avon",
   ],
   region: "North Cotswolds",
-} as const;
+};

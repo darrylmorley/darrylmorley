@@ -45,7 +45,7 @@ const jsonLd = {
   name: site.name,
   url: site.domain,
   email: site.email,
-  telephone: site.phone,
+  ...(site.phone ? { telephone: site.phone } : {}),
   description:
     "Freelance web developer building websites, online shops, system integrations and technical SEO for businesses in the North Cotswolds.",
   areaServed: [...site.towns, "North Cotswolds"].map((name) => ({

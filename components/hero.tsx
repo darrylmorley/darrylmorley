@@ -22,12 +22,21 @@ export function Hero() {
           >
             Email me
           </a>
-          <a
-            href={site.phoneHref}
-            className="rounded-full border border-ink/25 bg-paper/60 px-7 py-3.5 font-mono text-sm transition-all hover:-translate-y-0.5 hover:border-moss hover:text-moss"
-          >
-            {site.phone}
-          </a>
+          {site.phone && site.phoneHref ? (
+            <a
+              href={site.phoneHref}
+              className="rounded-full border border-ink/25 bg-paper/60 px-7 py-3.5 font-mono text-sm transition-all hover:-translate-y-0.5 hover:border-moss hover:text-moss"
+            >
+              {site.phone}
+            </a>
+          ) : (
+            <a
+              href="#services"
+              className="rounded-full border border-ink/25 bg-paper/60 px-7 py-3.5 text-sm font-bold transition-all hover:-translate-y-0.5 hover:border-moss hover:text-moss"
+            >
+              What I do
+            </a>
+          )}
         </div>
         <p className="rise rise-4 mt-8 font-mono text-xs tracking-wide text-ink-soft/80">
           Fixed quotes · You deal with me · Plain English

@@ -16,16 +16,23 @@ export function Contact() {
       >
         {site.email}
       </a>
-      <p className="reveal mt-8 text-lg text-ink-soft">
-        Or call{" "}
-        <a
-          href={site.phoneHref}
-          className="font-mono text-moss transition-colors hover:text-moss-deep"
-        >
-          {site.phone}
-        </a>
-        . If I&rsquo;m heads-down, I&rsquo;ll ring you back.
-      </p>
+      {site.phone && site.phoneHref ? (
+        <p className="reveal mt-8 text-lg text-ink-soft">
+          Or call{" "}
+          <a
+            href={site.phoneHref}
+            className="font-mono text-moss transition-colors hover:text-moss-deep"
+          >
+            {site.phone}
+          </a>
+          . If I&rsquo;m heads-down, I&rsquo;ll ring you back.
+        </p>
+      ) : (
+        <p className="reveal mt-8 text-lg text-ink-soft">
+          No contact form, no ticket system. It lands in my inbox and I reply
+          myself.
+        </p>
+      )}
     </section>
   );
 }

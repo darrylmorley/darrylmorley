@@ -28,18 +28,29 @@ export function Header() {
           </a>
         ))}
       </nav>
-      <a
-        href={site.phoneHref}
-        className="hidden font-mono text-sm text-moss transition-colors hover:text-moss-deep sm:inline"
-      >
-        {site.phone}
-      </a>
-      <a
-        href="#contact"
-        className="text-sm font-bold text-moss transition-colors hover:text-moss-deep sm:hidden"
-      >
-        Get in touch
-      </a>
+      {site.phone && site.phoneHref ? (
+        <>
+          <a
+            href={site.phoneHref}
+            className="hidden font-mono text-sm text-moss transition-colors hover:text-moss-deep sm:inline"
+          >
+            {site.phone}
+          </a>
+          <a
+            href="#contact"
+            className="text-sm font-bold text-moss transition-colors hover:text-moss-deep sm:hidden"
+          >
+            Get in touch
+          </a>
+        </>
+      ) : (
+        <a
+          href="#contact"
+          className="text-sm font-bold text-moss transition-colors hover:text-moss-deep"
+        >
+          Get in touch
+        </a>
+      )}
       </div>
     </header>
   );
